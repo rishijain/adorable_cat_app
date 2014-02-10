@@ -5,8 +5,8 @@
   %h1{:style => "margin-left:380px;"} Adorable Cats Fact and Image 
 
   .box{:style => "margin-left:440px;margin-top:25px;"}
-    = image_tag "http://upload.wikimedia.org/wikipedia/commons/2/22/Turkish_Van_Cat.jpg", :width => "300px"
-%p.fact Tabby cats are thought to get their name from Attab, a district in Baghdad, now the capital of Iraq.
+    = image_tag @image, :width => "300px", :height => "300px;"
+%p.fact #{@fact} 
 
 
 = link_to 'Next', root_path, :class => "btn"

@@ -28,6 +28,10 @@ GEM
     activesupport (3.2.13)
       i18n (= 0.6.1)
       multi_json (~> 1.0)
+    adorable_cat (0.0.5)
+      json
+      nokogiri
+      rest-client
     arel (3.0.3)
     builder (3.0.4)
     coffee-rails (3.2.2)
@@ -58,7 +62,10 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
+    mini_portile (0.5.2)
     multi_json (1.8.4)
+    nokogiri (1.6.1)
+      mini_portile (~> 0.5.0)
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
@@ -86,6 +93,8 @@ GEM
     rdoc (3.12.2)
       json (~> 1.4)
     ref (1.0.5)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     sass (3.2.14)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -114,6 +123,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  adorable_cat (= 0.0.5)
   coffee-rails (~> 3.2.1)
   execjs
   haml (>= 3.0.0)
