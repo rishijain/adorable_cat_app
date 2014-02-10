@@ -7,7 +7,7 @@ h1 {
   color: #f1f5f8;
   font-size: 31px;
   font-weight: 400;
-  font-family: "Roboto Condensed",Helvetica,Arial,sans-serif;
+  font-family: 'New Rocker', cursive;
 }
 
 p {
@@ -19,20 +19,36 @@ p {
 }
 
 .btn {
-  color: black;
-  background: #53ADED;
-  margin-right: 660px;
-  margin-top: -6px;
-  
-  font-size: 16px;
-  text-decoration: none;
-  line-height: 34px;
-  height: 34px;
-  float: right;
-  padding: 0 15px;
-  -webkit-border-radius: 17px;
-  -moz-border-radius: 17px;
-  border-radius: 17px;
-  -webkit-transition: all 300ms ease-in-out;
+    position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 3em;
+    display: block;
+    padding: 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: 40px 520px;
+    width: 160px;
+    text-align: center;
 
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+.btn:active {
+    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
 }
