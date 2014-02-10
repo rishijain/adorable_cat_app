@@ -25,7 +25,7 @@ gem "haml-rails"
 
 gem 'therubyracer'
 gem 'execjs'
-gem 'sqlite3'
+gem 'pg'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
